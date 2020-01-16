@@ -1,0 +1,9 @@
+---
+- name: dot
+  hosts: localhost
+  tasks:
+    - name: vimrc
+      copy:
+        src: ./.vimrc
+        dest: /home/souenzzo/.vimrc
+
