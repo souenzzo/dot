@@ -2,8 +2,13 @@
 - name: dot
   hosts: localhost
   tasks:
-    - name: vimrc
-      copy:
-        src: ./.vimrc
-        dest: /home/souenzzo/.vimrc
+  - name: vimrc
+    copy:
+      src: ./.vimrc
+      dest: /home/souenzzo/.vimrc
+  - name: clojure universal service
+    copy:
+      src: ./services/clojure@.service
+      dest: /home/souenzzo/.config/systemd/user/clojure@.service
+
 

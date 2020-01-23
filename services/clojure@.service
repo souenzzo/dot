@@ -1,0 +1,8 @@
+[Unit]
+Description=clojure
+
+[Service]
+Type=simple
+EnvironmentFile=%I
+ExecStart=/usr/bin/env clojure -Sdeps "{:deps ${DEPS}}" -m $MAIN
+

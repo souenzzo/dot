@@ -1,0 +1,3 @@
+DEPS={import-bug {:git/url "https://gist.github.com/souenzzo/e23944fac595077f372aa662cde5ff91" :sha "fd49010c7fee88bc3fb705d5fd494718bbd16f18"}}
+MAIN=ok
+
